@@ -28,7 +28,7 @@ function install_electrumx {
 	fi
 	$python -m pip install . --upgrade > /dev/null 2>&1
 	if ! $python -m pip install . --upgrade; then
-		_error "Unable to install electrumx" 7
+		# _error "Unable to install electrumx" 7
 	fi
 	cd $_DIR
 }
