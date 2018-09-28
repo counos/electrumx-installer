@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://github.com/counos/electrumx-installer/master/bootstrap.sh -O - | bash
+    wget https://github.com/counos/electrumx-installer/blob/master/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,7 +21,8 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://github.com/counos/electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://github.com/counos/electrumx-installer/blob/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://github.com/counos/electrumx-installer/blob/master/bootstrap.sh -O - | bash --update
 
      
 ## Operating System Compatibility
